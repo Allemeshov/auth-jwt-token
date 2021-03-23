@@ -1,0 +1,12 @@
+/Users/sveta/Documents/IT/JWT/AuthTutorial/AuthTutorialAuthCommon/bin/Debug/net5.0/AuthTutorialAuthCommon.deps.json
+/Users/sveta/Documents/IT/JWT/AuthTutorial/AuthTutorialAuthCommon/bin/Debug/net5.0/AuthTutorialAuthCommon.dll
+/Users/sveta/Documents/IT/JWT/AuthTutorial/AuthTutorialAuthCommon/bin/Debug/net5.0/ref/AuthTutorialAuthCommon.dll
+/Users/sveta/Documents/IT/JWT/AuthTutorial/AuthTutorialAuthCommon/bin/Debug/net5.0/AuthTutorialAuthCommon.pdb
+/Users/sveta/Documents/IT/JWT/AuthTutorial/AuthTutorialAuthCommon/obj/Debug/net5.0/AuthTutorialAuthCommon.csprojAssemblyReference.cache
+/Users/sveta/Documents/IT/JWT/AuthTutorial/AuthTutorialAuthCommon/obj/Debug/net5.0/AuthTutorialAuthCommon.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sveta/Documents/IT/JWT/AuthTutorial/AuthTutorialAuthCommon/obj/Debug/net5.0/AuthTutorialAuthCommon.AssemblyInfoInputs.cache
+/Users/sveta/Documents/IT/JWT/AuthTutorial/AuthTutorialAuthCommon/obj/Debug/net5.0/AuthTutorialAuthCommon.AssemblyInfo.cs
+/Users/sveta/Documents/IT/JWT/AuthTutorial/AuthTutorialAuthCommon/obj/Debug/net5.0/AuthTutorialAuthCommon.csproj.CoreCompileInputs.cache
+/Users/sveta/Documents/IT/JWT/AuthTutorial/AuthTutorialAuthCommon/obj/Debug/net5.0/AuthTutorialAuthCommon.dll
+/Users/sveta/Documents/IT/JWT/AuthTutorial/AuthTutorialAuthCommon/obj/Debug/net5.0/ref/AuthTutorialAuthCommon.dll
+/Users/sveta/Documents/IT/JWT/AuthTutorial/AuthTutorialAuthCommon/obj/Debug/net5.0/AuthTutorialAuthCommon.pdb

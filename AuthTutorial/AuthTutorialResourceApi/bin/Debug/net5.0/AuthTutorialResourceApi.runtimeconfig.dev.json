@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/sveta/.dotnet/store/|arch|/|tfm|",
+      "/Users/sveta/.nuget/packages"
+    ]
+  }
+}

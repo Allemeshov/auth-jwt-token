@@ -1,0 +1,19 @@
+<div>
+  <div class="topnav">
+    <a
+      [routerLink]="['']"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+      >Bookstore</a
+    >
+    <a
+      [routerLink]="['/orders']"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+      *ngIf="isLoggedIn"
+      >Orders</a
+    >
+  </div>
+
+  <router-outlet></router-outlet>
+</div>

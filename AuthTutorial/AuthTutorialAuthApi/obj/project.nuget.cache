@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "aWycOjuD73q/Nf43FonBrclrN7fwXiy/LWDBJGo4k7Lwcss9jYAoeEJDZrXNOMiHy9QTP01DPERQInw55kTLSw==",
+  "success": true,
+  "projectFilePath": "/Users/sveta/Documents/IT/JWT/AuthTutorial/AuthTutorialAuthApi/AuthTutorialAuthApi.csproj",
+  "expectedPackageFiles": [
+    "/Users/sveta/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
+    "/Users/sveta/.nuget/packages/microsoft.extensions.caching.abstractions/2.1.1/microsoft.extensions.caching.abstractions.2.1.1.nupkg.sha512",
+    "/Users/sveta/.nuget/packages/microsoft.extensions.caching.memory/2.1.1/microsoft.extensions.caching.memory.2.1.1.nupkg.sha512",
+    "/Users/sveta/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/2.1.1/microsoft.extensions.dependencyinjection.abstractions.2.1.1.nupkg.sha512",
+    "/Users/sveta/.nuget/packages/microsoft.extensions.options/2.1.1/microsoft.extensions.options.2.1.1.nupkg.sha512",
+    "/Users/sveta/.nuget/packages/microsoft.extensions.primitives/2.1.1/microsoft.extensions.primitives.2.1.1.nupkg.sha512",
+    "/Users/sveta/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.9.0/microsoft.identitymodel.jsonwebtokens.6.9.0.nupkg.sha512",
+    "/Users/sveta/.nuget/packages/microsoft.identitymodel.logging/6.9.0/microsoft.identitymodel.logging.6.9.0.nupkg.sha512",
+    "/Users/sveta/.nuget/packages/microsoft.identitymodel.tokens/6.9.0/microsoft.identitymodel.tokens.6.9.0.nupkg.sha512",
+    "/Users/sveta/.nuget/packages/system.identitymodel.tokens.jwt/6.9.0/system.identitymodel.tokens.jwt.6.9.0.nupkg.sha512",
+    "/Users/sveta/.nuget/packages/system.memory/4.5.1/system.memory.4.5.1.nupkg.sha512",
+    "/Users/sveta/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.1/system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
+    "/Users/sveta/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
