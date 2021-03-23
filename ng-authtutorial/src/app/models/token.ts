@@ -1,3 +1,3 @@
-export class Token {
-  access_token: string | undefined;
+export class MyToken {
+  access_token: string = '';
 }

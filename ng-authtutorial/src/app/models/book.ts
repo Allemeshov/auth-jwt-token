@@ -1,6 +1,6 @@
 export class Book {
-  id: number | undefined;
-  author: string | undefined;
-  title: string | undefined;
-  price: string | undefined;
+  id: number = 0;
+  author: string = '';
+  title: string = '';
+  price: string = '';
 }

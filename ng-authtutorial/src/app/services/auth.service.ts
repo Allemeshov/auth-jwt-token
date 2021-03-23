@@ -1,10 +1,11 @@
-import { HttpClient } from '@angular/common/http';
-import { Token } from '@angular/compiler/src/ml_parser/lexer';
 import { Inject, Injectable } from '@angular/core';
-import { Router } from '@angular/router';
-import { JwtHelperService } from '@auth0/angular-jwt';
-import { Observable } from 'rxjs';
+import { HttpClient } from '@angular/common/http';
 import { AUTH_API_URL } from '../app-injection-tokens';
+import { JwtHelperService } from '@auth0/angular-jwt';
+import { Router } from '@angular/router';
+import { Observable } from 'rxjs';
+import { tap } from 'rxjs/operators';
+import { MyToken } from '../models/token';
 
 export const ACCESS_TOKEN_KEY = 'bookstore_access_token';
 
@@ -19,9 +20,9 @@ export class AuthService {
     private router: Router
   ) {}
 
-  login(email: string, password: string): Observable<Token> {
+  login(email: string, password: string): Observable<MyToken> {
     return this.http
-      .post<Token>(`${this.apiUrl}/api/auth/login`, {
+      .post<MyToken>(`${this.apiUrl}/api/auth/login`, {
         email,
         password,
       })
@@ -34,7 +35,7 @@ export class AuthService {
 
   isAuthenticated(): boolean {
     var token = localStorage.getItem(ACCESS_TOKEN_KEY);
-    return token && !this.jwtHelper.isTokenExpired(token);
+    return token != null && !this.jwtHelper.isTokenExpired(token);
   }
 
   logout(): void {

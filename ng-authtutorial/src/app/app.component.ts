@@ -8,8 +8,23 @@ import { AuthService } from './services/auth.service';
 })
 export class AppComponent {
   public get isLoggedIn(): boolean {
+    // alert(this.as.isAuthenticated());
     return this.as.isAuthenticated();
   }
 
   constructor(private as: AuthService) {}
+
+  login(email: string, password: string) {
+    this.as.login(email, password).subscribe(
+      (res) => {},
+      (error) => {
+        alert(`Wrong login and password.`);
+        console.log(error);
+      }
+    );
+  }
+
+  logout() {
+    this.as.logout();
+  }
 }
